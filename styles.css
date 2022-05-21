@@ -1,0 +1,140 @@
+body{
+    background-color:#EFB889;
+    font-family:Josefin Sans;
+    color:#6D463C;
+}
+header h1{
+    display:inline-block;
+    margin:1rem 0;
+    vertical-align:top;
+   
+}
+header>nav{
+    display:flex;
+    justify-content:center;
+    color:#fff;
+    vertical-align:top;
+}
+header{
+    border-style:solid;
+    border-width:.5em;
+    border-color:#6D463C;
+    padding:1rem;
+}
+header a{
+    width:10%;
+    height:2em;
+}
+nav>a{
+    color:#6D463C;
+    background-color:#F0582C;
+    padding:0.5rem;
+    font-weight:800;
+    display:inline-block;
+    margin:1rem 1rem 1rem 0;
+    text-align:center;
+    text-decoration:none;
+}
+a:hover{
+    color:#fff;
+}
+h2{
+    background-color:#F0582C;
+}
+div>img{
+    max-width:35%;
+    padding:2rem;
+}
+h1{
+    text-align:center;
+    color:#6D463C;
+    font-weight:bold;
+    
+}
+h3{
+    color:#6D463C;
+    vertical-align:top;
+    font-weight:normal;
+}
+main>img{
+    width:30%;
+}
+div{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-content:center;
+}
+.about{
+    padding:2rem;
+}
+.about div{
+    display:inline-block;
+    width:60%;
+}
+.about img{
+    width:39%;
+    vertical-align:top;
+}
+.about p{
+    padding:.3rem;
+}
+.contact{
+    padding:1.5rem;
+
+}
+.contact div{
+    display:inline-block;
+    width:60%;
+    margin:1rem;
+    vertical-align:top;
+}
+.contact img{
+    width:30%;
+    margin:1rem;
+    padding:1rem;
+}
+.split div{
+    height:100%;
+    width: 50%;
+    position:relative;
+    z-index: 1;
+    top:1rem;
+    padding-top: 280px;
+}
+.left {
+    left: 0;
+  }
+.right {
+    right: 0;
+    position:absolute;
+    left: 65%;
+    transform: translate(-40%, -145%);
+    text-align:left;
+  }
+ .rescueddogs{
+     padding:4rem;
+ }
+ .rescueddogs img{
+     padding:2rem;
+     max-width:30%; 
+ }
+ .rescueddogs .right{
+    right: 0;
+    position:absolute;
+    left: 65%;
+    transform: translate(-40%, -50%);
+    text-align:left;
+    
+ }
+.contact p{
+    padding:2rem;
+}
+.support{
+    display:inline-block;
+    text-align:left;
+    width:46%;
+    padding:0.4rem;
+    margin:.5rem;
+    vertical-align:top;
+}
